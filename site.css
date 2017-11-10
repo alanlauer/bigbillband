@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Noticia Text");
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+@import url("https://fonts.googleapis.com/css?family=Lancelot");
+@import url("https://fonts.googleapis.com/css?family=Kaushan Script");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Cardo");
+@import url("https://fonts.googleapis.com/css?family=Droid Sans");
+@import url("https://fonts.googleapis.com/css?family=Gentium Book Basic");
+@import url("https://fonts.googleapis.com/css?family=Neuton");
+@import url("https://fonts.googleapis.com/css?family=Gravitas One");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 /*!
 * Bootstrap 4.0.0-beta (https://getbootstrap.com)
 * Copyright 2011-2017 The Bootstrap Authors
@@ -1073,7 +1084,7 @@ pre {
     color: #fff;
     background-color: #007bff; }
   .custom-control-input:focus ~ .custom-control-indicator {
-    box-shadow: 0 0 0 1px D2616A, 0 0 0 3px #007bff; }
+    box-shadow: 0 0 0 1px #D2616A, 0 0 0 3px #007bff; }
   .custom-control-input:active ~ .custom-control-indicator {
     color: #fff;
     background-color: #b3d7ff; }
@@ -2009,7 +2020,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: D2616A;
+  background-color: #D2616A;
   border: 1px solid #ddd;
   border-radius: 0.25rem;
   transition: all 0.2s ease-in-out;
@@ -2478,8 +2489,8 @@ button.list-group-item-dark {
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
     color: #495057;
-    background-color: D2616A;
-    border-color: #ddd #ddd D2616A; }
+    background-color: #D2616A;
+    border-color: #ddd #ddd #D2616A; }
   .nav-tabs .dropdown-menu {
     margin-top: -1px;
     border-top-left-radius: 0;
@@ -2847,7 +2858,7 @@ button.list-group-item-dark {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Noticia Text;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -3063,13 +3074,13 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Noticia Text;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
   color: white;
   text-align: left;
-  background-color: D2616A; }
+  background-color: #D2616A; }
 
 [tabindex="-1"]:focus {
   outline: none !important; }
@@ -3326,7 +3337,7 @@ template {
   .table tbody + tbody {
     border-top: 2px solid #e9ecef; }
   .table .table {
-    background-color: D2616A; }
+    background-color: #D2616A; }
 
 .table-sm th,
 .table-sm td {
@@ -3447,7 +3458,7 @@ template {
     background-color: rgba(0, 0, 0, 0.075); }
 
 .thead-inverse th {
-  color: D2616A;
+  color: #D2616A;
   background-color: #212529; }
 
 .thead-default th {
@@ -3455,7 +3466,7 @@ template {
   background-color: #e9ecef; }
 
 .table-inverse {
-  color: D2616A;
+  color: #D2616A;
   background-color: #212529; }
   .table-inverse th,
   .table-inverse td,
@@ -3482,7 +3493,7 @@ template {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Noticia Text;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -3582,7 +3593,7 @@ tbody.collapse.show {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Noticia Text;
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }

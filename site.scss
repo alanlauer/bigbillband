@@ -1,6 +1,17 @@
 
 
 // Semantic color scheme
+@import url('https://fonts.googleapis.com/css?family=Noticia Text'); 
+@import url('https://fonts.googleapis.com/css?family=Merriweather'); 
+@import url('https://fonts.googleapis.com/css?family=Lancelot'); 
+@import url('https://fonts.googleapis.com/css?family=Kaushan Script'); 
+@import url('https://fonts.googleapis.com/css?family=Lato'); 
+@import url('https://fonts.googleapis.com/css?family=Cardo'); 
+@import url('https://fonts.googleapis.com/css?family=Droid Sans'); 
+@import url('https://fonts.googleapis.com/css?family=Gentium Book Basic'); 
+@import url('https://fonts.googleapis.com/css?family=Neuton'); 
+@import url('https://fonts.googleapis.com/css?family=Gravitas One'); 
+@import url('https://fonts.googleapis.com/css?family=Roboto'); 
 $theme-colors: (
   primary: #007bff,
   secondary: #004EA3,
@@ -28,7 +39,8 @@ $enable-print-styles:       true !default;
 //
 // Theme settings.
 
-$body-bg: D2616A;
+$body-bg: #D2616A;
+
 
 $body-color: white;
 
@@ -37,9 +49,11 @@ $body-color-inverse: invert($body-color) !default;
 $link-color: #007bff;
 
 
-$font-family-base: Arial, Helvetica, sans-serif;
+$font-family-base: Noticia Text;
 
-$headings-font-family: Arial, Helvetica, sans-serif;
+
+$headings-font-family: Noticia Text;
+
 
 
 
